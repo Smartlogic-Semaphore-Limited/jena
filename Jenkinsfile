@@ -2,5 +2,5 @@
 
 smartlogic([
   docker: 'maven:3.5.3',
-  builder: smartlogic.mavenBuilder()
+  builder: smartlogic.mavenBuilder(args: ["-pl jena-tdb"])
 ])
