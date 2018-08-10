@@ -615,7 +615,7 @@
         <executions>
           <execution>
             <id>rat-checks</id>
-            <phase>validate</phase>
+            <phase></phase>
             <goals>
               <goal>check</goal>
             </goals>
